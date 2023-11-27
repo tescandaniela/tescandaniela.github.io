@@ -47,14 +47,14 @@ th {
 }
 
 #job-title {
-  color: rgb(0, 59, 0);
+  color: rgb(105, 9, 168);
   text-align: right;
 }
 
 #top-menu-bar {
   text-align: center;
-  background-color: #334455;
-  color: #ffff;
+  background-color: #045230;
+  color: #ffffff;
   margin: 5;
   padding: 0px;
 }
@@ -66,12 +66,12 @@ th {
 }
 #top-menu-bar a {
   text-decoration: none;
-  color: #fff;
+  color: #c8ffca9f;
   padding: 4px 8px;
   border-radius: 5px;
 }
 #top-menu-bas a :visited {
-  color: #fff;
+  color: #ffffff;
 }
 #top-menu-bar a.active,
 #top-menu-bar a:hover {
