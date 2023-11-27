@@ -19,8 +19,8 @@
       </div>
 
       <ul id="top-menu-bar">
-        <li><a href="#" class="active">HOME</a></li>
-        <li><a href="#">Skills</a></li>
+        <li><a href="#" class="active" onclick="ShowHome()">HOME</a></li>
+        <li><a href="#" onclick="ShowSkills()">Skills</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#" onclick="ShowLanguages()">Languages</a></li>
       </ul>
@@ -65,12 +65,12 @@
         </section>
       </div>
       <div id="main">
-        <div>
+        <div style="display: none" id="HOME">
           <h2>home</h2>
           <p>welcome..</p>
         </div>
 
-        <div style="display: none">
+        <div style="display: none" id="Skills">
           <h2>Skills</h2>
           <ul>
             <li li class="favorite">HTML</li>
@@ -121,7 +121,7 @@
       >
       account.
     </footer>
-    examples
+
     <script src="index.js"></script>
   </body>
 </html>

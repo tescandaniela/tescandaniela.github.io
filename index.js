@@ -2,4 +2,11 @@ function ShowLanguages() {
   var page = document.getElementById("languages");
   page.style.display = "block";
 }
-function ShowHome() 
+function ShowSkills() {
+  var page = document.getElementById("Skills");
+  page.style.display = "block";
+}
+function ShowHome() {
+  var page = getElementById("HOME");
+  page.style.display = "block";
+}
