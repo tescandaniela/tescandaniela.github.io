@@ -1,7 +1,8 @@
-function ShowLanguages() {
+function ShowPojects() {
   var oldPage = document.getElementById("projects");
-  oldPage.style.display = "none";
-
+  oldPage.style.display = "block";
+}
+function ShowLanguages() {
   var page = document.getElementById("languages");
   page.style.display = "block";
 }
