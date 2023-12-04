@@ -12,7 +12,7 @@ function show(id) {
   page.style.display = "block";
 }
 
-function ShowPage(id) {
+function showPage(id) {
   console.info("show page", id);
   hide(activePage);
   show(id);
