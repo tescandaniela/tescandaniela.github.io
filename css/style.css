@@ -17,11 +17,24 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  background-color: rgb(178, 211, 172);
 }
 #content {
   flex: 1;
   display: flex;
   flex-direction: row;
+}
+
+.page {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px greenyellow;
+}
+
+.page > h2 {
+  margin: 0 0 10px 0 color blue;
 }
 
 #main {
