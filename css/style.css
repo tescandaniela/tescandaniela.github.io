@@ -4,14 +4,15 @@ header {
 }
 
 #imgig {
-  border: 4px solid rgb(134, 13, 148);
+  border: 5px solid rgb(134, 13, 148);
   border-radius: 5px;
   border-style: groove;
 }
+
 #nume {
-  background-color: #045230;
-  border-radius: 2px;
+  text-decoration: underline;
   padding: 3px;
+  padding-right: 15px;
 }
 
 #content {
