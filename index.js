@@ -1,4 +1,4 @@
-var activePage = "HOME";
+var activePage = "home";
 
 function hide(id) {
   console.info("hide", id);
@@ -20,7 +20,8 @@ function showPage(id) {
 }
 
 function initEvents() {
-  var toolbar = document.querySelector("#top-menu-mar");
+  var toolbar = document.querySelector("#top-menu-bar");
+
   toolbar.addEventListener("click", function (e) {
     var page = e.target.innerHTML.toLowerCase();
     console.warn("event", page);
