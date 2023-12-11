@@ -18,3 +18,16 @@ function showPage(id) {
   show(id);
   activePage = id;
 }
+
+function initEvents() {
+  var toolbar = document.querySelector("#top-menu-mar");
+  toolbar.addEventListener("click", function (e) {
+    var page = e.target.innerHTML.toLowerCase();
+    console.warn("event", page);
+    showPage(page);
+  });
+}
+
+//executii
+showPage(activePage);
+initEvents();
