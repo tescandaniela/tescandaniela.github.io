@@ -29,16 +29,12 @@ header {
 }
 
 #content {
-  padding: 2px;
-  margin: 5px;
-  border: 4px;
 }
 
 #content div,
 #side-menu section {
-  padding: 3px;
+  padding: 3px 1px 0 5px;
   margin: 2px;
-  border: 2px;
 }
 
 #content {
@@ -55,7 +51,7 @@ header {
 }
 
 .page > h2 {
-  margin: 0 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 
 #main {
@@ -67,8 +63,8 @@ header {
 
 #side-menu > section {
   background-color: #dde8e1;
-  margin-bottom: 15px;
-  padding: 12px;
+  margin-bottom: 17px;
+  padding: 8px 5px 8px 5px;
   box-shadow: 1px 2px 5px 2px rgb(38, 0, 45), 4px 3px 5px rgb(38, 0, 45);
   border-radius: 4px;
 }
@@ -160,7 +156,6 @@ td.favorite {
 .circle:before {
   content: "";
   position: absolute;
-  bottom: 1.4%;
   left: -3%;
   width: 80%;
   height: 90%;
@@ -175,15 +170,15 @@ td.favorite {
 }
 .circle .shadow {
   position: absolute;
-  width: 140px;
+  width: 180px;
   height: 100%;
-  top: -12%;
-  left: -6%;
-  right: 19%;
+  top: -14%;
+  left: -25%;
+
   background: radial-gradient(
     circle at 50% 50%,
-    rgba(180, 75, 221, 0.244),
-    rgba(6, 124, 16, 0.227) 30%,
+    rgba(180, 75, 221, 0.244) 15%,
+    rgba(6, 124, 16, 0.227) 35%,
     rgba(0, 0, 0, 0) 45%
   );
 
