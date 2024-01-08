@@ -38,6 +38,15 @@ function initEvents() {
   });
 }
 
+function showSkills() {
+  var ul = document.querySelector("#skills ul");
+  console.info("lista", ul);
+  ul.innerHTML = "<li>HTML</li>";
+  ul.innerHTML = ul.innerHTML + "<li>CSS</li>";
+  ul.innerHTML = ul.innerHTML + "<li>JS</li>";
+}
+
 //executii
+showSkills();
 showPage(activePage);
 initEvents();
