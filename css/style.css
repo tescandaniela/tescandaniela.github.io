@@ -171,9 +171,10 @@ td.favorite {
 }
 .circle .shadow {
   position: absolute;
-  width: 300px;
+  width: 290px;
   height: 100%;
-  left: -50%;
+  left: -49%;
+  bottom: 1%;
   background: radial-gradient(
     circle at 50% 50%,
     rgba(180, 75, 221, 0.244) 15%,
