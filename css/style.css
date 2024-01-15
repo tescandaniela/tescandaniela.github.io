@@ -98,7 +98,7 @@ th {
   text-align: center;
   background-color: #045230;
   color: #ffffff;
-  margin: 5;
+  margin: 5px;
   padding: 0;
   border-radius: 5px;
   border-style: groove;
@@ -214,4 +214,8 @@ td.favorite {
     rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
     rgba(44, 187, 99, 0.25) 0 16px 32px;
   transform: scale(1.07) rotate(-2deg);
+}
+
+#skills li span {
+  color: #438b6c;
 }
