@@ -3,21 +3,19 @@ var activePage = "home";
 
 //functii publice
 function $(selector) {
-  console.info("gaseste elementul : %o", selector);
-
   var el = document.querySelector(selector);
-  console.info("elementul gasit este", el);
+  console.info("%o found:", selector, el);
   return el;
 }
 
 function hide(id) {
   console.info("hide", id);
-  document.getElementById(id).style.display = "none";
+  $("#" + id).style.display = "none";
 }
 
 function show(id) {
   console.info("show", id);
-  var page = document.getElementById(id);
+  var page = $(`#${id}`);
   console.info("page", page);
   page.style.display = "block";
 }
@@ -27,7 +25,6 @@ function showPage(id) {
   var prevLink = $("a[data-page=" + activePage + "]");
   prevLink.classList.remove("active");
   hide(activePage);
-
   var nextLink = $(`a[data-page=${id}]`);
   nextLink.classList.add("active");
   show(id);
