@@ -57,7 +57,7 @@ function showSkills() {
       favorite: true,
     },
     {
-      name: "words",
+      name: "Word",
       endorcements: 1,
       favorite: false,
     },
