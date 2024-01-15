@@ -42,30 +42,8 @@ function initEvents() {
   });
 }
 
-function showSkills() {
-  var ul = document.querySelector("#skills ul");
-
-  var skills = [
-    {
-      name: "HTML",
-      endorcements: 6,
-      favorite: true,
-    },
-    {
-      name: "CSS",
-      endorcements: 5,
-    },
-    {
-      name: "JS",
-      endorcements: 7,
-      favorite: true,
-    },
-    {
-      name: "Word",
-      endorcements: 1,
-      favorite: false,
-    },
-  ];
+function showSkills(skills) {
+  var ul = $("#skills ul");
 
   var text = skills.map(function (skill) {
     var cls = "";
@@ -78,9 +56,10 @@ function showSkills() {
   });
 
   console.warn(text);
+
   ul.innerHTML = text.join("");
 }
 //executii
-showSkills();
+//showSkills([]);
 showPage(activePage);
 initEvents();
