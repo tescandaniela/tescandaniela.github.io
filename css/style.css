@@ -19,6 +19,7 @@ header {
   border-radius: 5px;
   border-style: groove;
   margin: 3px;
+  height: 120px;
 }
 
 #nume {
