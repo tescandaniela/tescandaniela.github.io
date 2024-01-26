@@ -141,9 +141,9 @@ td.favorite {
 .circle {
   display: block;
   border-radius: 100%;
-  margin: 0;
-  width: 140px;
-  height: 140px;
+  margin: 11px;
+  width: 125px;
+  height: 125px;
   background: radial-gradient(
     circle at 100px 100px,
     rgb(5, 101, 50),
@@ -154,36 +154,36 @@ td.favorite {
 .circle:before {
   content: "";
   position: absolute;
-  bottom: -25%;
-  left: 9%;
-  width: 75%;
-  height: 117%;
-  border-radius: 30%;
+  top: 14%;
+  left: 15%;
+  width: 70%;
+  height: 112%;
+  border-radius: 33%;
   background: radial-gradient(
     circle at 50% 1px,
     #ffffff,
-    rgba(255, 255, 255, 0) 35%
+    rgba(255, 255, 255, 0) 33%
   );
-  -webkit-filter: blur(4px);
-  z-index: 2;
+  -webkit-filter: blur(5px);
+  z-index: 1;
 }
 .circle .shadow {
   position: absolute;
-  width: 300px;
+  width: 280px;
   height: 100%;
-  left: -49%;
-  bottom: 1%;
+  left: -40%;
+  top: 2%;
   background: radial-gradient(
     circle at 50% 50%,
-    rgba(180, 75, 221, 0.244) 15%,
-    rgba(6, 124, 16, 0.227) 35%,
-    rgba(0, 0, 0, 0) 45%
+    rgba(176, 78, 226, 0.246) 17%,
+    rgba(6, 124, 16, 0.227) 39%,
+    rgba(0, 0, 0, 0) 30%
   );
 
   z-index: 1.5;
 }
 .stage {
-  width: 150px;
+  width: 145px;
   height: 140px;
   -webkit-perspective: 1px;
 }
