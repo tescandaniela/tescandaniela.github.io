@@ -16,10 +16,10 @@ header {
 
 #imgig {
   border: 6px solid rgb(38, 0, 45);
-  border-radius: 5px;
+  border-radius: 6px;
   border-style: groove;
   margin: 3px;
-  height: 120px;
+  height: 110px;
 }
 
 #nume {
