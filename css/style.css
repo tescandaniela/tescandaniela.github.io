@@ -16,7 +16,7 @@ header {
 
 #imgig {
   border: 6px solid rgb(38, 0, 45);
-  border-radius: 6px;
+  border-radius: 14px;
   border-style: groove;
   margin: 3px;
   height: 110px;
@@ -25,7 +25,6 @@ header {
 #nume {
   text-decoration: none;
   padding: 1px 2px 3px 15px;
-  padding-left: 15px;
   box-shadow: 1px 1px 4px 1px rgb(38, 0, 45);
 }
 
@@ -39,6 +38,7 @@ header {
   flex: 1;
   display: flex;
   flex-direction: row;
+  padding: 1px;
 }
 
 .page {
@@ -61,8 +61,8 @@ header {
 
 #side-menu > section {
   background-color: #dde8e1;
-  margin-bottom: 17px;
-  padding: 8px 5px 8px 5px;
+  margin-bottom: 20px;
+  padding: 1px 7px 7px 7px;
   box-shadow: 1px 2px 5px 2px rgb(38, 0, 45), 4px 3px 5px rgb(38, 0, 45);
   border-radius: 4px;
 }
@@ -76,7 +76,7 @@ footer {
   flex-direction: row;
   align-items: stretch;
   justify-content: center;
-  gap: 7px;
+  gap: 8px;
 }
 
 td {
@@ -170,8 +170,8 @@ td.favorite {
   position: absolute;
   width: 280px;
   height: 100%;
-  left: -40%;
-  top: 2%;
+  left: -37%;
+  top: 1%;
   background: radial-gradient(
     circle at 50% 50%,
     rgba(176, 78, 226, 0.246) 17%,
