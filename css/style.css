@@ -76,7 +76,7 @@ footer {
   flex-direction: row;
   align-items: stretch;
   justify-content: center;
-  gap: 5px;
+  gap: 7px;
 }
 
 td {
@@ -99,23 +99,22 @@ th {
   text-align: center;
   background-color: #045230;
   color: #ffffff;
-  margin: 5px;
-  padding: 0;
-  border-radius: 5px;
+  margin: 2px;
+  border-radius: 7px;
   border-style: groove;
   border-color: black;
 }
 
 #top-menu-bar li {
   display: inline-block;
-  padding: 3px;
-  margin: 5px;
+  padding: 4px;
+  margin: 4px;
 }
 #top-menu-bar a {
   text-decoration: none;
   color: #c8ffca9f;
-  padding: 5px 12px 5px;
-  border-radius: 4px;
+  padding: 5px 12px 5px 20px;
+  border-radius: 5px;
   transition: 0.8s;
 }
 #top-menu-bas a :visited {
