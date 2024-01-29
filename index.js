@@ -1,10 +1,11 @@
-//variabile puclice
-var activePage = "home";
+//variabile publice
+let activePage = "home";
 
 //functii publice
 function $(selector) {
-  var el = document.querySelector(selector);
+  let el = document.querySelector(selector);
   console.info("%o found:", selector, el);
+  el = null;
   return el;
 }
 
@@ -15,28 +16,29 @@ function hide(id) {
 
 function show(id) {
   console.info("show", id);
-  var page = $(`#${id}`);
+  const page = $(`#${id}`);
   console.info("page", page);
   page.style.display = "block";
 }
 
 function showPage(id) {
   console.info("show page", id);
-  var prevLink = $("a[data-page=" + activePage + "]");
+  const prevLink = $("a[data-page=" + activePage + "]");
   prevLink.classList.remove("active");
   hide(activePage);
-  var nextLink = $(`a[data-page=${id}]`);
+
+  const nextLink = $(`a[data-page=${id}]`);
   nextLink.classList.add("active");
   show(id);
   activePage = id;
 }
 
 function initEvents() {
-  var toolbar = $("#top-menu-bar");
+  const toolbar = $("#top-menu-bar");
   toolbar.addEventListener("click", function (e) {
     if (e.target.matches("a")) {
-      var page = e.target.dataset.page;
-      console.warn("click", page);
+      const page = e.target.dataset.page;
+      console.warn("click %o", page);
       showPage(page);
     }
   });
@@ -54,10 +56,10 @@ function sortByName(a, b) {
 function showSkills(skills) {
   //skills.sort(sortSkillsByEndorcements)
   skills.sort(sortSkillsByEndorcements);
-  var ul = $("#skills ul");
+  const ul = $("#skills ul");
 
-  var text = skills.map(function (skill) {
-    var cls = "";
+  const text = skills.map(function (skill) {
+    let cls = "";
     if (skill.favorite === true) {
       cls = "favorite";
     }
