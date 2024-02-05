@@ -3,9 +3,8 @@ let activePage = "home";
 
 //functii publice
 function $(selector) {
-  let el = document.querySelector(selector);
+  const el = document.querySelector(selector);
   console.info("%o found:", selector, el);
-  el = null;
   return el;
 }
 
@@ -22,8 +21,9 @@ function show(id) {
 }
 
 function showPage(id) {
-  console.info("show page", id);
+  console.info("show page", id, activePage);
   const prevLink = $("a[data-page=" + activePage + "]");
+  console.info(prevLink);
   prevLink.classList.remove("active");
   hide(activePage);
 
