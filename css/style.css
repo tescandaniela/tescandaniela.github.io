@@ -24,8 +24,10 @@ header {
 
 #nume {
   text-decoration: none;
-  padding: 1px 2px 3px 15px;
+  padding: 3px 5px;
   box-shadow: 1px 1px 4px 1px rgb(38, 0, 45);
+  margin-left: 15px;
+  border-radius: 10px;
 }
 
 #content div,
@@ -63,7 +65,7 @@ header {
   background-color: #dde8e1;
   margin-bottom: 20px;
   padding: 1px 7px 7px 7px;
-  box-shadow: 1px 2px 5px 2px rgb(38, 0, 45), 4px 3px 5px rgb(38, 0, 45);
+  box-shadow: 1px 2px 5px 2px rgb(38, 0, 45), 4px 3px 5px rgb(240, 234, 241);
   border-radius: 4px;
 }
 
@@ -93,12 +95,14 @@ th {
   border-radius: 15px;
   font-size: 17px;
   font-style: italic;
+  margin-left: 10px;
 }
 
 #top-menu-bar {
   text-align: center;
   background-color: #045230;
   color: #ffffff;
+  padding: 3px;
   margin: 2px;
   border-radius: 7px;
   border-style: groove;
@@ -113,10 +117,11 @@ th {
 #top-menu-bar a {
   text-decoration: none;
   color: #c8ffca9f;
-  padding: 5px 12px 5px 20px;
+  padding: 5px 12px 5px 12px;
   border-radius: 5px;
   transition: 0.8s;
 }
+
 #top-menu-bas a :visited {
   color: #031d0c;
 }
