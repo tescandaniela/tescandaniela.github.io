@@ -47,7 +47,7 @@ header {
   display: none;
   background-color: #dde8e1;
   border-radius: 4px;
-  box-shadow: 1px 2px 5px 2px rgb(38, 0, 45), 4px 3px 5px rgb(38, 0, 45);
+  box-shadow: 1px 2px 5px 2px rgb(38, 0, 45), 4px 3px 5px rgb(240, 234, 241);
 }
 
 .page > h2 {
@@ -70,9 +70,10 @@ header {
 }
 
 footer {
+  display: inline-block;
   min-height: 24px;
   padding: 10px 10px 7px 10px;
-  background-color: rgba(0, 110, 39, 0.861);
+  background-color: #045230;
   color: #d7f0dc;
   display: flex;
   flex-direction: row;
