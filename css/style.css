@@ -43,6 +43,33 @@ header {
   padding: 1px;
 }
 
+.search-input {
+  width: 100%;
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+input {
+  color: color(#565756 a(0.8));
+  letter-spacing: 0.5px;
+}
+
+.search-input :hover,
+:focus {
+  padding: 10px 0;
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #575756;
+  background-position: 100% center;
+  border-radius: 0;
+}
+
 .page {
   display: none;
   background-color: #dde8e1;
@@ -198,6 +225,9 @@ td.favorite {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-top: 5px;
+  margin-left: 8px;
+  border: 1px solid rgba(5, 100, 38, 0.343);
 }
 
 .button:hover {
