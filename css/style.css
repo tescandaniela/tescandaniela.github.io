@@ -75,6 +75,11 @@ input {
   background-color: #dde8e1;
   border-radius: 4px;
   box-shadow: 1px 2px 5px 2px rgb(38, 0, 45), 4px 3px 5px rgb(240, 234, 241);
+  margin: 30px 20px;
+}
+
+.page p {
+  font-size: 20px;
 }
 
 .page > h2 {
@@ -141,11 +146,11 @@ th {
 }
 
 #top-menu-bar a:hover {
-  color: #6c97c2;
-  background: #fff;
+  color: #000000;
+  background: #a6dfabbd;
 }
 #top-menu-bar a.active {
-  color: #334455;
+  color: #335535;
   background: #fff;
 }
 
