@@ -3,7 +3,7 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgb(178, 211, 172);
+  background-color: rgba(0, 114, 2, 0.217);
 }
 
 html {
@@ -11,7 +11,7 @@ html {
 }
 
 header {
-  background: linear-gradient(45deg, #438b6c, transparent);
+  background: linear-gradient(45deg, #28805ae9, transparent);
 }
 
 #imgig {
@@ -25,7 +25,7 @@ header {
 #nume {
   text-decoration: none;
   padding: 3px 5px;
-  box-shadow: 1px 1px 4px 1px rgb(38, 0, 45);
+  box-shadow: 1px 1px 5px 1px rgb(38, 0, 45);
   margin-left: 15px;
   border-radius: 10px;
 }
@@ -40,7 +40,7 @@ header {
   flex: 1;
   display: flex;
   flex-direction: row;
-  padding: 1px;
+  padding: 2px;
 }
 
 .search-input {
@@ -75,7 +75,6 @@ input {
   background-color: #dde8e1;
   border-radius: 4px;
   box-shadow: 1px 2px 5px 2px rgb(38, 0, 45), 4px 3px 5px rgb(240, 234, 241);
-  margin: 30px 20px;
 }
 
 .page p {
@@ -83,7 +82,7 @@ input {
 }
 
 .page > h2 {
-  margin: 10px 0 10px 0;
+  margin: 10px;
 }
 
 #main {
@@ -99,6 +98,7 @@ input {
   padding: 1px 7px 7px 7px;
   box-shadow: 1px 2px 5px 2px rgb(38, 0, 45), 4px 3px 5px rgb(240, 234, 241);
   border-radius: 4px;
+  padding: 20px;
 }
 
 td {
@@ -122,8 +122,8 @@ th {
   text-align: center;
   background-color: #045230;
   color: #ffffff;
-  padding: 3px;
-  margin: 2px;
+  padding: 4px;
+  margin: 3px;
   border-radius: 7px;
   border-style: groove;
   border-color: black;
@@ -131,13 +131,13 @@ th {
 
 #top-menu-bar li {
   display: inline-block;
-  padding: 4px;
+  padding: 5px;
   margin: 4px;
 }
 #top-menu-bar a {
   text-decoration: none;
   color: #c8ffca9f;
-  padding: 5px 12px 5px 12px;
+  padding: 10px 20px;
   border-radius: 5px;
 }
 
@@ -148,10 +148,22 @@ th {
 #top-menu-bar a:hover {
   color: #000000;
   background: #a6dfabbd;
+  transition: 0.5s;
 }
 #top-menu-bar a.active {
   color: #335535;
   background: #fff;
+}
+
+#languages table {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: none;
+}
+
+#languages tr {
+  border: 1px solid black;
 }
 
 .favorite {
@@ -164,11 +176,11 @@ td.favorite {
 .circle {
   display: block;
   border-radius: 100%;
-  margin: 11px;
-  width: 125px;
-  height: 125px;
+  margin: 10px;
+  width: 135px;
+  height: 135px;
   background: radial-gradient(
-    circle at 100px 100px,
+    circle at 110px 110px,
     rgb(5, 101, 50),
     rgb(64, 0, 75)
   );
@@ -177,13 +189,13 @@ td.favorite {
 .circle:before {
   content: "";
   position: absolute;
-  top: 14%;
-  left: 15%;
-  width: 70%;
-  height: 112%;
-  border-radius: 33%;
+  top: 16%;
+  left: 21%;
+  width: 65%;
+  height: 118%;
+  border-radius: 30%;
   background: radial-gradient(
-    circle at 50% 1px,
+    circle at 45% 1px,
     #ffffff,
     rgba(255, 255, 255, 0) 33%
   );
@@ -192,10 +204,10 @@ td.favorite {
 }
 .circle .shadow {
   position: absolute;
-  width: 280px;
+  width: 295px;
   height: 100%;
-  left: -37%;
-  top: 1%;
+  left: -27%;
+  top: 4%;
   background: radial-gradient(
     circle at 50% 50%,
     rgba(176, 78, 226, 0.246) 17%,
