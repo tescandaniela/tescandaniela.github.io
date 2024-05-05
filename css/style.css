@@ -32,19 +32,20 @@ header {
 
 #content div,
 #side-menu section {
-  padding: 3px 1px 0 5px;
+  padding: 6px 5px;
   margin: 2px;
 }
 
 #content {
   flex: 1;
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  padding: 2px;
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
 .search-input {
-  width: 100%;
   background-color: transparent;
   font-size: 14px;
   line-height: 22px;
@@ -62,6 +63,7 @@ input {
 
 .search-input :hover,
 :focus {
+  width: 100%;
   padding: 10px 0;
   outline: 0;
   border: 1px solid transparent;
@@ -71,6 +73,7 @@ input {
 }
 
 .page {
+  width: 500px;
   display: none;
   background-color: #dde8e1;
   border-radius: 4px;
@@ -99,6 +102,14 @@ input {
   box-shadow: 1px 2px 5px 2px rgb(38, 0, 45), 4px 3px 5px rgb(240, 234, 241);
   border-radius: 4px;
   padding: 20px;
+}
+
+#skills {
+  font-size: 18px;
+}
+
+#skills li span {
+  color: #438b6c;
 }
 
 td {
@@ -156,6 +167,7 @@ th {
 }
 
 #languages table {
+  font-size: 20px;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -253,10 +265,6 @@ td.favorite {
     rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
     rgba(44, 187, 99, 0.25) 0 16px 32px;
   transform: scale(1.07) rotate(-2deg);
-}
-
-#skills li span {
-  color: #438b6c;
 }
 
 footer {
