@@ -19,7 +19,7 @@ header {
   border-radius: 14px;
   border-style: groove;
   margin: 3px;
-  height: 110px;
+  height: 120px;
 }
 
 #nume {
@@ -28,6 +28,17 @@ header {
   box-shadow: 1px 1px 5px 1px rgb(38, 0, 45);
   margin-left: 15px;
   border-radius: 10px;
+  font-size: 35px;
+}
+
+#job-title {
+  color: rgb(129, 11, 150);
+  text-align: center;
+  background-color: #b8dfc5;
+  border-radius: 15px;
+  font-size: 20px;
+  font-style: italic;
+  margin-left: 10px;
 }
 
 #content div,
@@ -98,7 +109,6 @@ input {
 #side-menu > section {
   background-color: #dde8e1;
   margin-bottom: 20px;
-  padding: 1px 7px 7px 7px;
   box-shadow: 1px 2px 5px 2px rgb(38, 0, 45), 4px 3px 5px rgb(240, 234, 241);
   border-radius: 4px;
   padding: 20px;
@@ -119,20 +129,11 @@ th {
   padding: 5px;
 }
 
-#job-title {
-  color: rgb(129, 11, 150);
-  text-align: center;
-  background-color: #b8dfc5;
-  border-radius: 15px;
-  font-size: 17px;
-  font-style: italic;
-  margin-left: 10px;
-}
-
 #top-menu-bar {
   text-align: center;
   background-color: #045230;
   color: #ffffff;
+  font-size: 17px;
   padding: 4px;
   margin: 3px;
   border-radius: 7px;
@@ -143,7 +144,7 @@ th {
 #top-menu-bar li {
   display: inline-block;
   padding: 5px;
-  margin: 4px;
+  margin: 5px;
 }
 #top-menu-bar a {
   text-decoration: none;
@@ -188,9 +189,9 @@ td.favorite {
 .circle {
   display: block;
   border-radius: 100%;
-  margin: 10px;
-  width: 135px;
-  height: 135px;
+  margin-left: 10px;
+  width: 155px;
+  height: 155px;
   background: radial-gradient(
     circle at 110px 110px,
     rgb(5, 101, 50),
@@ -201,37 +202,50 @@ td.favorite {
 .circle:before {
   content: "";
   position: absolute;
-  top: 16%;
-  left: 21%;
-  width: 65%;
-  height: 118%;
-  border-radius: 30%;
+  top: 14%;
+  left: 14%;
+  width: 60%;
+  height: 140%;
+  border-radius: 40%;
+  padding: 0 18px;
   background: radial-gradient(
-    circle at 45% 1px,
+    circle at 50% 1px,
     #ffffff,
     rgba(255, 255, 255, 0) 33%
   );
-  -webkit-filter: blur(5px);
+  -webkit-filter: blur(10px);
   z-index: 1;
 }
 .circle .shadow {
   position: absolute;
-  width: 295px;
+  width: 339px;
   height: 100%;
-  left: -27%;
+  left: -29%;
   top: 4%;
   background: radial-gradient(
     circle at 50% 50%,
-    rgba(176, 78, 226, 0.246) 17%,
+    rgba(176, 78, 226, 0.246) 18%,
     rgba(6, 124, 16, 0.227) 39%,
-    rgba(0, 0, 0, 0) 30%
+    rgba(0, 0, 0, 0) 37%
   );
 
   z-index: 1.5;
 }
+
+.circle .under-shadow {
+  position: absolute;
+  width: 130px;
+  height: 17px;
+  top: 91%;
+  left: 19%;
+  background: #544d4dda;
+  border-radius: 70%;
+  -webkit-filter: blur(2px);
+}
+
 .stage {
-  width: 145px;
-  height: 140px;
+  width: 170px;
+  height: 172px;
   -webkit-perspective: 1px;
 }
 
@@ -249,7 +263,6 @@ td.favorite {
   text-align: center;
   text-decoration: none;
   transition: all 300ms;
-  border: 0;
   font-size: 15px;
   user-select: none;
   -webkit-user-select: none;
